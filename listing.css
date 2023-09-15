@@ -20,6 +20,7 @@ header{
     padding-top: 6px;
     margin-left:1%;
     letter-spacing:1px;
+    font-weight: bold;
 }
 header .buttons{
     display: inline-flex;
@@ -28,7 +29,6 @@ header .buttons{
     background-color: rgb(37, 206, 209);
     margin-top:11px;
     color:white;
-    font-weight: bold;
     border-radius: 5px;
     margin-bottom: 5px;
     margin-left:20px;
