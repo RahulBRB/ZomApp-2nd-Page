@@ -74,20 +74,24 @@ header .buttons{
     color:rgb(234, 82, 111);
 }
 .filter hr{
-    height:2px;
+    height:1.5px;
     background-color:rgb(234, 82, 111);
 }
-.filter input{
-    background-color: brown;
-}
-.filter .label_style{
+
+
+.label_style{
     font-size: 17px;
     background-color: white;
-    width:50%;
+    width:60%;
+    border-radius: 40px;
+    margin-left: 20%;
+}
+.label_style label{
+    padding-left:2%;
 }
 
-
 input[type="radio"] {
+
 	appearance: none;
 	width: 20px;
 	height: 20px;
