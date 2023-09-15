@@ -70,7 +70,10 @@ header .buttons{
     margin-left: 63px;
     color:rgb(234, 82, 111);
 }
-
+.filter hr{
+    height:2px;
+    background-color:rgb(234, 82, 111);
+}
 
 
 
