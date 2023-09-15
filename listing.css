@@ -129,7 +129,7 @@ input[type="radio"]:checked::before {
 }
 .cards{
     display: flex;
-    background-color: rgb(234, 82, 111);
+    background-color:  #f3c3b4;
     border-radius: 10px;
 }
 .cardsLeft{
