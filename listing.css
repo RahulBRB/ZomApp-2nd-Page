@@ -127,8 +127,22 @@ input[type="radio"]:checked::before {
     border-radius: 10px;
 
 }
-
-
+.cards{
+    display: flex;
+    background-color: rgb(234, 82, 111);
+    border-radius: 10px;
+}
+.cardsLeft{
+    width: 50%;
+}
+.cardsLeft img{
+    width:400px;
+    padding:5%;
+    border-radius: 30px;
+}
+.cardsRight{
+    width: 48%;
+}
 /* Footer */
 footer{
     /* height: 80px; */
