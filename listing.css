@@ -56,7 +56,7 @@ header .buttons{
 }
 
 .filter{
-    height:500px;
+    height:auto;
     width:20%;
     border:3px solid rgb(234, 82, 111);
     border-radius: 10px;
@@ -64,21 +64,54 @@ header .buttons{
 .filter .one{
     margin-left: 48px;
     color:rgb(234, 82, 111);
+    font-size:25px;
 }
 
 .filter .two{
-    margin-left: 63px;
+    margin-left: 64px;
+    font-size:25px;
+
     color:rgb(234, 82, 111);
 }
 .filter hr{
     height:2px;
     background-color:rgb(234, 82, 111);
 }
+.filter input{
+    background-color: brown;
+}
+.filter .label_style{
+    font-size: 17px;
+    background-color: white;
+    width:50%;
+}
 
 
+input[type="radio"] {
+	appearance: none;
+	width: 20px;
+	height: 20px;
+	border: 1px solid rgb(234, 82, 111);
+	border-radius: 50%;
+	margin-right: 10px;
+	background-color: transparent;
+	position: relative;
+	top: 2px;
+}
 
-
-
+input[type="radio"]:checked::before {
+	content: "";
+	display: block;
+	width: 12px;
+	height: 12px;
+	background-color: #ca8489;
+	border-radius: 50%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	animation: appear 0.8s;
+}
 
 
 /**/
