@@ -1,6 +1,7 @@
 body{
     margin:auto;
     background:rgb(252, 234, 222);
+    height:auto;
 }
 
 a{
@@ -56,7 +57,7 @@ header .buttons{
 }
 
 .filter{
-    height:auto;
+    height:700px;
     width:20%;
     border:3px solid rgb(234, 82, 111);
     border-radius: 10px;
@@ -120,7 +121,7 @@ input[type="radio"]:checked::before {
 
 /**/
 .restContent{
-    height:700px;
+    height:auto;
     width:70%;
     /*border:3px solid rgb(234, 82, 111);*/
     margin-left:7%;
@@ -132,6 +133,7 @@ input[type="radio"]:checked::before {
     background-color:  #fdddd4;
     border-radius: 10px;
     border-bottom: 4px solid rgb(234, 82, 111);
+    margin-bottom: 5%;
 }
 .cardsLeft{
     width: 50%;
