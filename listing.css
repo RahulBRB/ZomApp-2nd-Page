@@ -1,0 +1,98 @@
+body{
+    margin:auto;
+    background:rgb(252, 234, 222);
+}
+
+a{
+    text-decoration:none
+}
+
+header{
+    height:50px;
+    /*border:5px solid hotpink;*/
+    background-color: rgb(234, 82, 111);
+}
+
+#brand{
+    float: left;
+    color:white;
+    font-size: 30px;
+    padding-top: 6px;
+    margin-left:1%;
+    letter-spacing:1px;
+}
+header .buttons{
+    display: inline-flex;
+    font-size:18px;
+    padding:3px 10px;
+    background-color: rgb(37, 206, 209);
+    margin-top:11px;
+    color:white;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    margin-left:20px;
+}
+#social{
+    float: right;
+    margin-right: 20px;
+}
+ .inst,  .yt, .fb{
+    background-color: aliceblue;
+    border-radius: 50px;
+    margin-top:2%;
+}
+
+.socialLogo{
+    height:45px
+}
+
+
+#content{
+    width:85%;
+    margin-left:7.5%;
+    margin-top:3%;
+    display: flex;
+}
+
+.filter{
+    height:500px;
+    width:20%;
+    border:3px solid rgb(234, 82, 111);
+    border-radius: 10px;
+}
+
+.restContent{
+    height:700px;
+    width:70%;
+    border:2px solid orange;
+    margin-left:7%
+}
+
+
+/* Footer */
+footer{
+    /* height: 80px; */
+    /* border:10px double orange */
+    background-color: rgb(234, 82, 111);
+    text-align: center;
+    color: white
+}
+
+.footText{
+    font-size: 20px;
+}
+
+.footDiv{
+    display: inline-block;
+    width:32%;
+    border-right: 2px solid white;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.noborder{
+    border:none
+}
