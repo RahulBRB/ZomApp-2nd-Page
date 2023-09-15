@@ -61,7 +61,22 @@ header .buttons{
     border:3px solid rgb(234, 82, 111);
     border-radius: 10px;
 }
+.filter .one{
+    margin-left: 48px;
+}
 
+.filter .two{
+    margin-left: 63px;
+}
+
+
+
+
+
+
+
+
+/**/
 .restContent{
     height:700px;
     width:70%;
