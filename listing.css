@@ -59,7 +59,7 @@ header .buttons{
 .filter{
     height:700px;
     width:20%;
-    border:3px solid rgb(234, 82, 111);
+    border:4px solid rgb(234, 82, 111);
     border-radius: 10px;
 }
 .filter .one{
