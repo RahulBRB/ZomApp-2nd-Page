@@ -63,10 +63,12 @@ header .buttons{
 }
 .filter .one{
     margin-left: 48px;
+    color:rgb(234, 82, 111);
 }
 
 .filter .two{
     margin-left: 63px;
+    color:rgb(234, 82, 111);
 }
 
 
