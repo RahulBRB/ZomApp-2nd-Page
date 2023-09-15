@@ -122,8 +122,10 @@ input[type="radio"]:checked::before {
 .restContent{
     height:700px;
     width:70%;
-    border:2px solid orange;
-    margin-left:7%
+    border:3px solid rgb(234, 82, 111);
+    margin-left:7%;
+    border-radius: 10px;
+
 }
 
 
