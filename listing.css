@@ -195,3 +195,82 @@ ul{
 .noborder{
     border:none;
 }
+
+/*MEDIA QUERIES*/
+@media (max-width: 768px) {
+    header {
+        height: auto;
+    }
+    #brand {
+        font-size: 24px;
+        margin-left: 0;
+        text-align: center;
+        padding-top: 10px;
+    }
+    header .buttons {
+        font-size: 16px;
+        margin: 10px;
+    }
+    #social {
+        display: none;
+    }
+    .filter {
+        width: 50%;
+        margin-left:0;
+        border: none;
+    }
+    .label_style {
+        width: 80%;
+    }
+    .cards {
+        flex-direction: column;
+    }
+    .cardsLeft{
+        width: 90%;
+    }
+    .cardsLeft img {
+        width: 100%;
+    }
+    .cardsRight {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .filter {
+        display: none;
+    }
+    .cards {
+        width:100%;
+        border-radius: 0;
+        margin-left:10%;
+    }
+    .cardsRight .name {
+        font-size: 24px;
+    }
+    .cardsRight .location {
+        font-size: 16px;
+    }
+    .cardsRight .price {
+        font-size: 20px;
+    }
+    .cardsRight ul{
+        margin-left:-40px;
+    }
+    .cardsRight li {
+        font-size: 16px;
+        padding: 6px;
+    }
+    footer {
+        height: auto;
+    }
+    .footText {
+        font-size: 16px;
+    }
+    .footDiv {
+        width: 100%;
+        border-right: none;
+        margin-bottom: 10px;
+    }
+}
